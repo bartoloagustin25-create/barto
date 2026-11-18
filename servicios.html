@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <body>
+    <link rel="stylesheet" href="estilos.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" 
+   content="width=device-width, initial-scale=1.0">
+   <title>Estacionamiento GOELP | Servicios</title>
+   
+   
+<main>
+    <section class="promocion" aria-labelledby="titulo-cotizador">
+<h2 id="titulo-cotizador">Cotiza tu compra</h2>
+<label for="producto">Producto</label>
+<select id="producto">
+<option value="">Selecciona un producto</option>
+<option value="1200">Gestionamiento - $1200 MXN/Mes</option>
+<option value="800">Organizacion - $800 MXN/Mes</option>
+<option value="2000">Balizamiento - $2000 MXN/Unica vez</option>
+<option value="2500">Electrificacion - $2500 MXN/Unica vez</option>
+<option value="2300">Apartado de lugar por internet - $2300 MXN/Unica vez</option>
+<option value="18000">Lavado de autos - $18000 MXN/Unica vez</option>
+</select>
+<label for="cantidad">Cantidad</label>
+<input id="cantidad" type="number" min="1" max="20" step="1">
+<button id="boton-promocion" type="button">Ver promoción</button>
+<button id="calcular" type="button">Calcular</button>
+<button id="limpiar" type="button">Limpiar</button>
+<p id="mensaje-promocion" aria-live="polite"></p>
+<p id="resultado" aria-live="polite"></p>
+<h2>Nuestros Servicios</h2>
+           <div class="grid-servicios">
+               <div class="card">
+                   <h3>Gestionamiento</h3>
+                   <img src="imagenes/esta4.jpg" alt="Autonomo" width="700" height="400">
+                   <p>Mejoria y control total del "flujo" de los coches, registro de entrada y salida para evitar saturaciones o perdidas.</p>
+                   <p>Precio: $1,200 MNX/Mes</p>
+                   <label for="cantidad-1">Cantidad:</label>
+<input type="number" id="cantidad-1" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-1">0.00</span></p>
+               </div>
+               <div class="card">
+                   <h3>Organizacion</h3>
+                   <img src="imagenes/esta5.jpg" alt="Autonomo" width="700" height="400">
+                   <p>Distribucion de areas asignadas para cada coche y optimizacion del espacio para mayor capacidad y orden</p>
+                   <p>Precio: $800 MXN/Mes</p>
+                   <label for="cantidad-2">Cantidad:</label>
+<input type="number" id="cantidad-2" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-2">0.00</span></p>
+               </div>
+               <div class="card">
+                   <h3>Balizamiento</h3>
+                   <img src="imagenes/esta6.jpg" alt="Autonomo" width="400" height="400">
+                   <p>Pintura y senalamiento como cajones, flechas y zonas de acceso</p>
+                   <p>Precio: $2000 MXN/Unica vez</p>
+                   <label for="cantidad-3">Cantidad:</label>
+<input type="number" id="cantidad-3" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-3">0.00</span></p>
+               </div>
+               <div class="card">
+                   <h3>Electrificacion</h3>
+                   <img src="imagenes/esta8.jpg" alt="Autonomo" width="400" height="400">
+                   <p>instalacion de tomas de corriente, iluminacion, cobro automatico y cargadores para carros electricos</p>
+                   <p>Precio: $2,500 MXN/Unica vez</p>
+                   <label for="cantidad-4">Cantidad:</label>
+<input type="number" id="cantidad-4" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-4">0.00</span></p>
+               </div>
+                   <div class="card">
+                   <h3>Apartados de lugar por intenet</h3>
+                   <img src="imagenes/pago.jpg" alt="Autonomo" width="400" height="400">
+                   <p>Es una pagina web o aplicacion muy facil de usar donde la gente puede aseguarar y pagar su lugar de estacionamiento desde su celular antes de salir de casa</p>
+                   <p>Precio: $2,300 MXN/Unica vez</p>
+                   <p>$200.00/mes</p>
+                   <p>(mantenimiento opcinal)</p>
+                   <label for="cantidad-5">Cantidad:</label>
+<input type="number" id="cantidad-5" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-5">0.00</span></p>
+                   </div>
+                   <div class="card">
+                   <h3>Lavado de autos</h3>
+                   <img src="imagenes/maquina.jpg" alt="Autonomo" width="400" height="400">
+                   <p>Mientras el cliente deja su carro estacionado para trabajar o pasear, un trabajador lleva una maquina esṕecial hasta el cajonn del carro</p>
+                   <p>Precio: $18,000 MXN/Unica vez</p>
+                   <p>$130/por carro (unica vez que tenga la maquina)</p>
+                   <label for="cantidad-6">Cantidad:</label>
+<input type="number" id="cantidad-6" min="0" step="1" value="0">
+<p>Subtotal: $<span id="subtotal-6">0.00</span></p>
+           </div>
+       </div>
+   </section>
+</main>
+<script src="script.js"></script>
+</body>
+</head>
